@@ -2,7 +2,7 @@ from pymongo import MongoClient
 
 class Database:
 
-	uri = "mongodb+srv://hirodaridev:parkstreet02038%40@cluster0.nxudg.mongodb.net/test?"
+	uri = "mongodb+srv://sometring for mongodb connection"
 	try:
 		client = MongoClient(uri)
 		db = client.microblog
